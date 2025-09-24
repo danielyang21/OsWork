@@ -22,7 +22,7 @@ loader:
 _stop:
     cli
     hlt
-    jmp_stop # another infinite loop
+    jmp _stop # another infinite loop
 
 
 .section .bss
